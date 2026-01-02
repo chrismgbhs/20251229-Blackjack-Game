@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,5 +9,7 @@ namespace _20251229_Blackjack_Game
     internal class Table
     {
         public static List<Player> Players = new List<Player>();
+        int hitTracker;
+    
     }
 }
