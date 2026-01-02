@@ -9,7 +9,6 @@ namespace _20251229_Blackjack_Game
     internal class Table
     {
         public static List<Player> Players = new List<Player>();
-        int hitTracker;
     
     }
 }
