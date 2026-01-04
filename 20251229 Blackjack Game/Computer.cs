@@ -8,6 +8,9 @@ namespace _20251229_Blackjack_Game
 {
     internal class Computer
     {
+        /// <summary>
+        /// The hand of cards held by the computer player.
+        /// </summary>
         public Hand Hand = new Hand();
         public void AddCard(Card card)
         {

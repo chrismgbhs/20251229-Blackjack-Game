@@ -10,12 +10,7 @@ namespace _20251229_Blackjack_Game
     {
         static void Main(string[] args)
         {
-            while (true)
-            {
-
-                Game.StartGame();
-
-            }
+             Game.StartGame();
         }
     }
 }

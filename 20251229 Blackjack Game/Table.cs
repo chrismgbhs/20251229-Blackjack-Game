@@ -8,7 +8,9 @@ namespace _20251229_Blackjack_Game
 {
     internal class Table
     {
+        /// <summary>
+        /// This list holds all players currently at the table.
+        /// </summary>
         public static List<Player> Players = new List<Player>();
-    
     }
 }

@@ -15,7 +15,7 @@ namespace _20251229_Blackjack_Game
             /// Create a standard 52-card deck and shuffle it
             string[] categories = { "Hearts", "Diamonds", "Clubs", "Spades" };
             string[] names = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King", "Ace" };
-            int[] values = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 0 };
+            int[] values = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 1 };
 
             List<Card> cards = new List<Card>();
 
